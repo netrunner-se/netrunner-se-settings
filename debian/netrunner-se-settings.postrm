@@ -1,0 +1,3 @@
+#/bin/bash
+
+dpkg-divert --package netrunner-se-settings --remove --rename --divert /etc/skel/.config/menus/applications-kmenuedit.menu.orig /etc/skel/.config/menus/applications-kmenuedit.menu
