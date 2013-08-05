@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir -p /usr/share/netrunner/disabled
+
 dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/cuttherope.desktop /etc/skel/.local/share/applications/cuttherope.desktop
 dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/calendar.desktop /etc/skel/.local/share/applications/calendar.desktop
 dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/docs.desktop /etc/skel/.local/share/applications/docs.desktop
