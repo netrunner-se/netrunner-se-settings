@@ -1,1 +1,2 @@
 applications-kmenuedit.menu /etc/skel/.config/menus/
+etc/skel/Desktop/* /etc/skel/Desktop/
