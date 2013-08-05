@@ -1,3 +1,10 @@
+netrunner-se-settings (1.0.0~raring2) raring; urgency=low
+
+  * Remove webapps with dpkg-divert
+  * Add desktop icons for jitsi and thunderbird
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 05 Aug 2013 11:05:46 +0200
+
 netrunner-se-settings (1.0.0~raring) raring; urgency=low
 
   * Initial release

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/cuttherope.desktop /etc/skel/.local/share/applications/cuttherope.desktop
+dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/calendar.desktop /etc/skel/.local/share/applications/calendar.desktop
+dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/docs.desktop /etc/skel/.local/share/applications/docs.desktop
+dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/dropboxweb.desktop /etc/skel/.local/share/applications/dropboxweb.desktop
+dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/duckhunt.desktop /etc/skel/.local/share/applications/duckhunt.desktop.desktop
+dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/facebook.desktop /etc/skel/.local/share/applications/facebook.desktop
+dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/firefox-marketplace.desktop /etc/skel/.local/share/applications/firefox-marketplace.desktop
+dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/gmail.desktop /etc/skel/.local/share/applications/gmail.desktop
+dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/google-contacts.desktop /etc/skel/.local/share/applications/google-contacts.desktop
+dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/jacknjoe.desktop /etc/skel/.local/share/applications/jacknjoe.desktop
+dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/maps.desktop /etc/skel/.local/share/applications/maps.desktop
+dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/runners-id.desktop /etc/skel/.local/share/applications/runners-id.desktop
+dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/twitter.desktop /etc/skel/.local/share/applications/twitter.desktop
+dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/youtube.desktop /etc/skel/.local/share/applications/youtube.desktop
