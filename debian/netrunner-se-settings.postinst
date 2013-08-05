@@ -16,3 +16,6 @@ dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/n
 dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/runners-id.desktop /etc/skel/.local/share/applications/runners-id.desktop
 dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/twitter.desktop /etc/skel/.local/share/applications/twitter.desktop
 dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/youtube.desktop /etc/skel/.local/share/applications/youtube.desktop
+
+# Remove Ktp link here
+dpkg-divert --package netrunner-se-settings --add --rename --divert /usr/share/netrunner/disabled/kde4-ktp-contactlist.desktop /etc/skel/.local/share/applications/kde4-ktp-contactlist.desktop
